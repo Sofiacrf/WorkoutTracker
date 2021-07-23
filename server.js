@@ -15,12 +15,13 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutracker", {
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useUnifiedTopology: true
 });
 
 // routes
-app.use(require("./routes/api.js"));
-app.use(require("./routes/html.js"));
+app.use(require("./Develop/routes/api"));
+app.use(require("./Develop/routes/html"));
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
