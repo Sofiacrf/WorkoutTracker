@@ -28,7 +28,8 @@
   ## Usage
   This application is great for a person that spend time at the gym that wants to keep track of each exercise as well as its progress
   
-  ![WorkoutTracker.PNG](./WorkoutTracker.PNG)
+  ![WorkoutTracker.PNG](Develop/workout.png)
+  ![WorkoutTracker.PNG](Develop/workout2.png)
   
   ## Link
   https://desolate-eyrie-51645.herokuapp.com/
