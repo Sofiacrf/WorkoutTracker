@@ -21,8 +21,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutracker",
 });
 
 // routes
-app.use(require("./Develop/routes/api"));
-app.use(require("./Develop/routes/html"));
+app.use(require("./routes/api"));
+app.use(require("./routes/html"));
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
